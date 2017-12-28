@@ -1,4 +1,4 @@
-# FSE2017
+# Finding Near-optimal Configuraitons in Product Lines by Random Sampling
 This is the code archive for the paper 'Finding Near-optimal Configuraitons in Product Lines by Random Sampling' published in FSE/ESEC 2017. The paper can be found at http://www.cs.utexas.edu/ftp/predator/17FSE.pdf
 
 This application implements the Statistical Recursive Searching (SRS) described in the paper. SRS is an approach to find near-optimal configurations of a highly configurable system regarding a given performance measure. 
