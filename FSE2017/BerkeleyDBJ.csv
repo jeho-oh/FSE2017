@@ -1,0 +1,3 @@
+target,features,clauses,nodes,paths,configs,samples,totalTime,bddTime
+BerkeleyDBJ, 27, 14, 0, 144, 576, 0, 14.0, 12.0
+Configurations
