@@ -44,7 +44,7 @@ public class ConfigSearcher {
 		set = new BDDSet(target, runner.convertBDD_set(), features);
 		set.countConfig();
 		
-		result = "delta_x,delta_x_est,delta_x_nrs,delta_y,delta_y_est,samplesize,noteworthy,recursion,features,\n";
+		result = "delta_x,delta_x_est,delta_x_nrs,delta_y,delta_y_est,sampleSize,noteworthy,recursion,features,\n";
 	}
 
 

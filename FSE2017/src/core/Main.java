@@ -21,13 +21,13 @@ public class Main {
 		
 		if(args.length == 8)  {
 			target = args[0];
-			target = args[1];
-			target = args[2];
-			target = args[3];
-			target = args[4];
-			target = args[5];
-			target = args[6];
-			target = args[7];
+			fmFile = args[1];
+			mdFile = args[2];
+			outFile = args[3];
+			maxRec = Integer.valueOf(args[4]);
+			initSample = Integer.valueOf(args[5]);
+			recSample = Integer.valueOf(args[6]);
+			repeat = Integer.valueOf(args[7]);
 		}else if(args[0].equals("-int")) {
 			Scanner input = new Scanner(System.in);
 			System.out.println(">> Input target:");
@@ -67,7 +67,6 @@ public class Main {
 		for(int j = 0; j < repeat; j++) {
 			cs.searchConfigs(maxRec, initSample, recSample);
 		}
-		
 		
 		cs.writeResults(outFile);
 		System.out.println(">> Results written");
